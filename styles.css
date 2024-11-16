@@ -480,5 +480,56 @@ span {
     width: 100%;
   }
 }
+education
+.education {
+  padding: 50px;
+  background-color:  rgb(243, 209, 228);
+}
 
+.education .heading {
+  font-size: 3.5rem;
+  color: rgb(129, 3, 72);
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 3px rgb(255, 253, 253);
+  font-family: "Rubik", sans-serif;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.education-box {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.education-box h3 {
+  color: #7a2046;
+  font-size: 1.4rem;
+  margin-top: 18px;
+  font-family: "Rubik", sans-serif;
+}
+
+.education-box h2 {
+  color: #141111;
+  margin: 5px 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.academy-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
 
