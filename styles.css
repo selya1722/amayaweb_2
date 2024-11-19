@@ -21,7 +21,13 @@ html {
     overflow-y: auto;
     scroll-behavior: smooth; 
 }
-  
+ .gradient-text {
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; 
+}
+ 
 body {
   background: var(--bg-color);
   color: var(--text-color);
