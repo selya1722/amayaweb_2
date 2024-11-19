@@ -22,10 +22,10 @@ html {
     scroll-behavior: smooth; 
 }
  .gradient-text {
-    background: linear-gradient(45deg, #ff6ec4, #7873f5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold; 
+  background: linear-gradient(45deg, #ffc2e6, #bcbae6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold; 
 }
  
 body {
